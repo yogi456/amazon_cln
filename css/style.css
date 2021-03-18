@@ -1,0 +1,435 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color:aliceblue;
+   
+
+
+}
+#back{
+  width: 100%;
+  height: 100%;
+  
+
+}
+nav{
+    display: flex;
+    padding: 20px 30px;
+    align-items: center;
+    justify-content: space-between;
+   width: 100%;
+   height: 10%;
+   background-color:  rgb(19,25,33);
+
+}
+#icns{
+    font-size: 35px;
+    color: #ffff;
+
+}
+nav #img{
+    width: 145px;
+    height: 45px;
+    margin-left: 10PX;
+    background-size: cover;
+    background-position: center;
+    
+background-image: url("/img/Capture.JPG");
+}
+nav input[type=search]{
+    width:480px;
+    height: 45px;
+    margin-left: 20PX;
+
+}
+#Search{
+ display: flex;
+ align-items: center;
+ margin-left: 55px;
+ background-color:rgb(243,243,243);
+ border-bottom-left-radius: 5px;
+ border-top-left-radius: 5px;
+
+  
+}
+#Search h6{
+    margin-left: 25px;
+    padding-top: 9px;
+    padding-left: 6px;
+    width: 35px;
+    height: 35px;
+   color:rgb(32, 31, 31);
+   opacity: .6;
+   font-size: 15px;
+   
+}
+#Search i{
+    padding: 15px 15px;
+    width: 50px;
+    height: 45px;
+    font-size:15px;
+    background-color: rgba(255, 166, 0, 0.856);   
+
+}
+
+#cart-icn i{
+     align-items: left;
+}
+#links{
+    display: flex;
+    align-items: center;
+    margin-left: 65px;
+}
+#links .sign h4{
+ margin-left: 30px;
+ font-size: 20px;
+ font-family: "Poppins";
+
+
+}
+#links a{
+    text-decoration: none;
+    margin-left:35px;
+    color: #fff;
+    font-size: 11px;
+    font-family: "Poppins";
+
+
+}
+#cart-icn i{
+     font-size: 35px;
+     color: #fff;
+     margin-left: 60px;
+
+
+
+
+}
+#nav2{
+    display: flex;
+  width: 100%;
+  height: 10%;
+  align-items: center;
+  background-color: rgb(35,47,63);
+
+}
+#nav2 #icns2 i{
+    padding-left: 10px;
+    font-size: 22px;
+    color: #fff;
+    font-family: "Poppins";
+
+
+}
+#nav2  h4{
+     font-size: 15px;
+     font-weight: 500;
+     font-family: "Montserrat";
+     color: #fff;
+}
+#nav2  h4 span{
+ font-size: 15px;
+ font-weight:600;
+ color: #fff;
+
+}
+#link-2{
+    margin-left: 15px;
+}
+#link-2 a{
+    
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 20px;
+    font-family: "montserrat";
+    font-weight: 500;
+    color:#fff
+
+}
+#products{
+    width: 100%;
+    height: 80%;
+    margin-left: 10px;
+  
+    
+  
+}
+#products #prd-head h3{
+    font-size: 35px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    margin-top: 10px;
+    font-family: "Poppins";
+}
+#brand{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.prd-details{
+    width: 285px;
+    height: 400px;
+    border-radius: 20px;
+    background-image: url(https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/31/e72c82f2-cfd5-4f9a-b1b0-ba9e2b3e51251598892519506-W.jpg);
+    background-position: center;
+   background-size: cover;
+   margin-top: 25px;
+   margin-left:5px;
+
+}
+.prd-details:hover{
+    cursor: pointer;
+
+}
+.img1{
+    background-image: url(https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/11/14/6e0a9fa0-9e8d-4c29-9250-995c9f1ba9331605363273176-Home---U.S.-Polo-Assn..jpg);
+}
+.img2{
+    background-image: url(https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/11/14/0524cbd5-f034-4155-9e3b-336c4e530ee41605363272658-Home---Levis.jpg);
+}
+.img3{
+    background-image: url(https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/31/64ecc170-58af-473f-8144-b1639895a8291598892519457-Veromodo.jpg);
+}
+.img4{
+    background-image: url(https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/11/14/5544cd64-d95b-461d-802a-8025fdfeb3331605363272844-Home---Nike.jpg);
+}
+.img5{
+    background-image: url(https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/31/581e2bf6-6d47-4a4b-a11f-43200dc9c6791598892519362-Puma.jpg);
+}
+.img6{
+    background-image: url(https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/retaillabs/2020/9/4/e6c7a718-acc0-4aa6-b04c-470ab139d66c1599230080722-F21--4-.jpg);
+}
+.img7{
+    background-image: url(https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/31/8d5afb84-a464-40af-9971-2e9f0827e9b71598892377591-UCB.jpg);
+}
+.img8{
+    background-image: url(https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/11/14/d5c17859-f366-4a65-ab42-5a066254feaa1605363272474-Home---GAP.jpg);
+}
+.img9{
+    background-image: url(https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/31/8d5afb84-a464-40af-9971-2e9f0827e9b71598892377591-UCB.jpg);
+}
+.img10{
+    background-image: url(https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/retaillabs/2020/9/4/e6c7a718-acc0-4aa6-b04c-470ab139d66c1599230080722-F21--4-.jpg);
+}
+.img11{
+    background-image: url(https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/25/085719b1-c71e-4f47-950c-9a6b7f291fac1598348260370-Jack-_-Jones.jpg);
+}
+.img12{
+    background-image: url(https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/19/8becef46-f822-4874-b92a-a7cc7f58819d1597841103131-Content-sportswear-brand-nike.png);
+}
+.img13{
+    background-image: url(https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/19/7472ab66-adf2-4d1d-9379-4770a73c1efe1597841103172-Content-sportswear-brand-proline.png);
+}
+.img14{
+    background-image: url(https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/19/65bafbc5-f83b-4158-8168-f7553043814c1597841103082-Content-sportswear-brand-Asics.png);
+}
+.img15{
+    background-image: url(https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/19/4aa58fe6-8c61-4e37-9fa8-436c31aecb211597840566511-Content-sportswear-essentials-activewear.png);
+}
+.img16{
+    background-image: url(https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/19/48f02c04-8b83-495b-a2df-27ed8a9837a61597840566563-Content-sportswear-mostselling-skechers.png);
+}
+.img16-1{
+    background-image: url(https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/19/1fb4a81c-d5e2-4e46-93d8-b6a87ca92c021597840342817-Content-footwear-color-colorblock.jpg);
+}
+.img17{
+    background-image: url(https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/19/7c0ac6d4-94aa-4c56-b6e7-86f7367a1ead1597841103213-Content-sportswear-brand-UA.png);
+}
+.img18{
+    background-image: url(https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/28/ba7ebb65-b743-4947-b7b0-2f62a3c912cf1595935799269-Content-sportswear-Women-Athleisure.jpg);
+}
+.img19{
+    background-image: url(https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/28/0faf749f-5450-4550-8b48-54b2d2e311b51595935799329-Content-sportswear-Women-Running.jpg);
+}
+.img20{
+    background-image: url(https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/28/ffc6f4f2-9541-47a2-ba12-e3c68c9407461595935799402-Content-sportswear-Women-Under-Armour-daily-wear-Joggers.jpg);
+}
+.img21{
+    background-image: url(https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/19/a84d687a-1ff3-4b06-a47b-48021ba7cec11597840342959-Content-footwear-occasion-outbackoutdoor.png);
+}
+.img22{
+    background-image: url(https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/28/647e166b-f645-443a-892d-df84ee345e781595935221231-Content-Footwear-men-Neutral-shades.jpg);
+}
+#prd-crcle{
+    width: 100%;
+    height: auto;
+}
+#prd-crcle h3{
+    margin-top: 35px;
+    font-size: 35px;
+    margin-left: 10px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-family: "Poppins";
+}
+#circle{
+    width: 100%;
+    height:80%;
+    display: flex;
+    overflow: hidden;
+   
+}
+#categ-circle{
+    width: 100%;
+    height:70%;
+   
+  
+}
+#categ-circle .circle-img{
+    width:300px;
+    height:300px;
+    margin-left: 25px;
+    border-radius:150px;
+    margin-top: 30px;
+    
+    background-position: center;
+   background-size: cover;
+  
+}
+.circle-img:hover{
+    cursor: pointer;
+
+}
+.cimg{
+    background-image: url(https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/8/b0f459a0-9ef0-4392-a9ed-23892a36e79c1594222966859-Dresses.jpg);
+    
+}
+.cimg1{
+    background-image: url(https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/8/89f1bd9d-3a28-456d-888a-beff717a06f81594222908155-Shirts.jpg);
+}
+.cimg2{
+    background-image: url(https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/8/9ff1f34e-9242-47fd-9566-e7d7a5c240511594222908483-T-shirt.jpg);
+}
+.cimg3{
+    background-image: url(https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/8/a352f908-57c8-4c66-b052-18137cf15e6c1594222967074-Handbags.jpg);
+}
+.cimg4{
+    background-image: url(https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/8/ae14f627-9fd9-41ce-80a4-f107c316c7eb1594222907625-Casual-shoes.jpg);
+}
+.cimg5{
+    background-image: url(https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/8/a048cca8-7b5d-417e-9645-ca98f4b6e52c1594222967506-Sarees.jpg);
+}
+.cimg6{
+    background-image: url(https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/8/8d992d81-49e6-4dec-89a4-49a8af8beb5d1594222967220-Kurtas-_-Kurta-Sets.jpg);
+}
+.cimg7{
+    background-image: url(https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/8/a4dedaa4-3710-4061-b7d6-ca8c83ce9d021594222967117-Heels.jpg);
+}
+.cimg8{
+    background-image: url( https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/8/18eb31db-8dcb-4efa-b92d-61c8ebe0ee811594222834368-Shorts.jpg);
+}
+.cimg9{
+    background-image: url(https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/8/ae14f627-9fd9-41ce-80a4-f107c316c7eb1594222907625-Casual-shoes.jpg);
+}
+.cimg10{
+    background-image: url(https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/8/720cf6ef-3be4-4825-8211-0125c942e3821594222907960-Jeans.jpg);
+}
+.cimg11{
+    background-image: url(https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/8/f0f9b81a-b9d5-4b8b-94d5-ea878fa9b18e1594222834121-Infant-Essential.jpg);
+}
+/* accessories */
+.acc1{
+    background-image: url(https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/28/2bcf907c-bc21-44cb-9021-7575a963b0ef1595934830671-Content-Accesories-Unisex-True-wirless-lets-get-free.jpg);
+}
+.acc2{
+    background-image: url(https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/28/bddd9c73-e4f1-43c0-a073-2ff3c0e376b51595934830554-Content-Accesories-men-Sporty-Watches_.jpg);
+}
+.acc3{
+    background-image: url(https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/19/5e68d729-b955-431c-930c-931d8b452d421597840217983-Content-accessories-color-white.png);
+}
+.acc4{
+    background-image: url(https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/19/8363b55c-446f-4de2-bc5b-e75fd6fdfb2d1597840217862-Content-accessories-brand-fastrack.png);
+}
+.acc5{
+    background-image: url(https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/19/274b3659-420d-43c2-8e4c-17249e6eaf8d1597840218139-Content-accessories-trend-minimalist.png);
+}
+.acc6{
+    background-image: url(https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/19/225f77f5-c299-4849-8586-3ed41b70b1f91597840217917-Content-accessories-brand-imittire.png);
+}
+.acc7{
+    background-image: url(https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/19/b5fb5332-cad0-4c04-bd5e-70189f5efef01597840218056-Content-accessories-mostselling-mangalsutra.png);
+}
+.acc8{
+    background-image: url(https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/19/4dbcc869-ba34-43df-8348-56c7816363c41597840218100-Content-accessories-trend-handcraftedjewel.png);
+}
+.acc9{
+    background-image: url(https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/retaillabs/2020/8/21/bc36f35b-f5ce-4168-bd96-d3c1f65ec4e21598030134870-Content-mostselling-Accessories-Rosegoldwatch.jpeg);
+}
+.acc10{
+    background-image: url(https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/19/5e68d729-b955-431c-930c-931d8b452d421597840217983-Content-accessories-color-white.png);
+}
+.acc11{
+    background-image: url(https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/28/2bcf907c-bc21-44cb-9021-7575a963b0ef1595934830671-Content-Accesories-Unisex-True-wirless-lets-get-free.jpg);
+}
+.acc12{
+    background-image: url(https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/28/bddd9c73-e4f1-43c0-a073-2ff3c0e376b51595934830554-Content-Accesories-men-Sporty-Watches_.jpg);
+}
+/* ends */
+/* footer css */
+#footer{
+    width: 100%;
+    height: 100%;
+    overflow:auto;
+
+}
+.ft-cnt{
+    width: 100%;
+    height: 100%;
+    
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #1D4350;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A43931, #1D4350);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A43931, #1D4350); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.ft-links{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+
+}
+.frst-cnt{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+.frst-cnt h5{
+    width:100%;
+    height: 100%;
+    align-items: center;
+    color: #fff;
+  
+    
+}
+.ft-links a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 15px;
+    color: #fff;
+}
+.ft-links a:hover{
+    text-decoration: underline;
+    color: #fff;
+}
+
+
+
+
+ 
+ 
+
+
+
+
+
